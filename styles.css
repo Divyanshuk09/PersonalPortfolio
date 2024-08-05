@@ -66,6 +66,11 @@ body {
 	color: var(--text-color);
 	font-size: 20px;
 	padding-bottom: 100px;
+	@media (max-width:700px) {
+		width: 150vw;
+		overflow-x: hidden;
+	}
+		
 }
 
 a {
@@ -85,6 +90,15 @@ header {
 	max-width: 1440px;
 	margin: auto;
 	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	@media (max-width:700px) {
+		width: 150vw;
+	}
+	@media (max-width:768px) {
+		display: inline-block;
+		position:fixed;
+		top: 0px;
+		right: 0px;
+	}
 
 	.logo-holder {
 		display: flex;
@@ -114,7 +128,9 @@ header {
 	nav {
 		display: flex;
 		align-items: center;
-
+		@media (max-width:700px) {
+			width: 0vw;
+		}
 		ul {
 			display: flex;
 			list-style-type: none;
@@ -158,9 +174,9 @@ header {
 
 			@media (max-width:768px) {
 				display: inline-block;
-				position: absolute;
-				top: 20px;
-				right: 20px;
+				position:fixed;
+				top: 30px;
+				right: 80px;
 			}
 		}
 	}
@@ -327,10 +343,7 @@ h1 {
 
 
 .logos {
-
-
 	padding: 30px 0px;
-
 	.marquee {
 		width: 100vw;
 		max-width: 100%;
@@ -342,6 +355,10 @@ h1 {
 
 		@media (max-width:1440px) {
 			border-radius: 0px;
+		}
+		@media (max-width:700px) {
+			width: 150vw;
+			overflow-x: hidden;
 		}
 
 		.track {
@@ -426,6 +443,12 @@ h3 {
 			padding: 20px;
 			box-shadow: 7px 5px 20px rgba(197, 213, 221, 0.229);
 			border-radius: 8px;
+			@media (max-width:700px) {
+				transition: 1s ease-in;
+				justify-content: center;
+				align-items: center;
+				width: 90vw;
+			}
 		}
 
 		.card_head {
@@ -465,7 +488,7 @@ h3 {
 			justify-content: center;
 			align-items: center;
 		}
-
+		width: 100%;
 		transition: 1s ease-in;
 		background-color: var(--background-color);
 		color: var(--text-color);
@@ -487,6 +510,12 @@ h3 {
 			padding: 20px;
 			box-shadow: 7px 5px 20px rgba(197, 213, 221, 0.229);
 			border-radius: 8px;
+			@media (max-width:700px) {
+				transition: 1s ease-in;
+				justify-content: center;
+				align-items: center;
+				width: 90vw;
+			}
 		}
 
 		.card_head {
@@ -625,6 +654,7 @@ h3 {
 
 		@media (max-width:700px) {
 			height: 50vh;
+			margin-top: 50px;
 			gap: 10px;
 			display: flex;
 			justify-content: center;
@@ -747,6 +777,9 @@ h3 {
 			margin-left: 100%;
 		}
 	}
+	@media (max-width:700px) {
+		width: 120vw;
+	}
 
 	.design {
 		width: 44%;
@@ -756,6 +789,10 @@ h3 {
 
 		@media (max-width: 1024px) {
 			width: 50%;
+		}
+		@media (max-width:700px) {
+			width: 100vw;
+			overflow-x: hidden;
 		}
 
 		h6 {
@@ -774,6 +811,9 @@ h3 {
 
 		@media (max-width: 1024px) {
 			width: 100%;
+		}
+		@media (max-width:700px) {
+			width: 90vw;
 		}
 
 		.container {
@@ -841,6 +881,9 @@ h3 {
 			align-items: center;
 			letter-spacing: 1.5px;
 			transition: all .25s;
+			@media (max-width:700px) {
+				margin-left: 30px;
+			}
 
 			p {
 				color: #6E6259;
@@ -898,8 +941,10 @@ h7 {
 	font-style: normal;
 	font-variant: normal;
 	text-decoration: underline;
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: bold;
+	text-align: center;
 	line-height: 1;
 	color: var(--brown);
+	
 }

@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Portfolio Web Design</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+		rel="stylesheet">
+	<link rel="stylesheet" href="./styles.css">
+	<script src="./scripts.js"></script>
+	<link rel="icon" type="image/jpg" href="favicon.jpg">
+</head>
+
+<body>
+	<header id="home">
+		<a href="#" class="logo-holder">
+			<div class="logo">D</div>
+			<div class="logo-text">Portfolio Website</div>
+		</a>
+		<nav>
+			<ul id="menu">
+				<li id="toggle-theme">
+					<img id="theme-icon" src="icons/DarkMode.svg" alt="Theme Icon">
+				</li>
+				<li>
+					<a href="#home">Home</a>
+				</li>
+				<li>
+					<a href="#skills">About Me</a>
+				</li>
+				<li>
+					<a href="#projects">Projects</a>
+				</li>
+				<li>
+					<a href="#contact">Contact</a>
+				</li>
+			</ul>
+			<a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+				<svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+					width="24" height="24" fill="none" viewBox="0 0 24 24">
+					<path stroke="currentColor" stroke-linecap="round" stroke-width="2" d="M5 7h14M5 12h14M5 17h10" />
+				</svg>
+			</a>
+		</nav>
+	</header>
+	<main>
+		<section class="hero container">
+			<div class="hero-blue">
+				<div>
+					<h1><small>Hi I'm</small>
+						Divyanshu
+					</h1>
+					<p>
+						<span>Frontend Developer in India who creates websites using HTML, CSS and Javascript. </span>
+						<br>
+						<span> I'm from Uttar Pradesh, India, working in web development
+							and Designing. I enjoy turning complex problems into simple, beautiful and intuitive
+							designs.</span>
+					</p>
+					<div class="call-to-action">
+						<a href="./resume.pdf" class="button black">
+							View Resume
+						</a>
+						<a href="mailto:divyanshukushwah2003@gmail.com" class="button white">
+							Contact Me
+						</a>
+					</div>
+					<div class="social-links">
+						<a href="https://github.com/Divyanshuk09">
+							<img src="icons/Github.svg" alt="" style="width: fit-content;">
+						</a>
+						<a href="https://www.linkedin.com/in/divyanshu-kushwah/">
+							<img src="icons/Linkedin.svg" alt="LinkedIn" style="width: fit-content;">
+						</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-yellow">
+				<img src="profile.png" alt="Divyanshu" width="100%" />
+			</div>
+		</section>
+		<section class="logos container">
+			<h2>
+				<small>About me</small>
+				Tools I Use
+			</h2>
+			<div class="marquee">
+				<div class="track">
+					<img src="tools/html.svg" alt="" class="icons">
+					<img src="tools/css.svg" alt="" width="7%" class="icons">
+					<img src="tools/js.svg" alt="" width="7%" class="icons">
+					<img src="tools/react.svg" alt="" width="7%" class="icons">
+					<img src="tools/C.svg" alt="" width="7%" class="icons">
+					<img src="tools/C++.svg" alt="" width="7%" class="icons">
+					<img src="tools/PYTHON LOGO.svg" alt="" width="7%" class="icons">
+					<img src="tools/bootstrap-5-logo-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/tailwind-css-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/figma.svg" alt="" width="7%" class="icons">
+					<img src="tools/canva-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/lighroom.svg" alt="" width="7%" class="icons">
+					<img src="tools/adobe-premiere-pro-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/filmora-logo-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/vscode.svg" alt="" width="7%" class="icons">
+					<img src="tools/chatgpt-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/ms.svg" alt="" width="7%" class="icons">
+					<img src="tools/vite.svg" alt="" width="7%" class="icons">
+					<img src="tools/html.svg" alt="" class="icons">
+					<img src="tools/css.svg" alt="" width="7%" class="icons">
+					<img src="tools/js.svg" alt="" width="7%" class="icons">
+					<img src="tools/react.svg" alt="" width="7%" class="icons">
+					<img src="tools/C.svg" alt="" width="7%" class="icons">
+					<img src="tools/C++.svg" alt="" width="7%" class="icons">
+					<img src="tools/PYTHON LOGO.svg" alt="" width="7%" class="icons">
+					<img src="tools/bootstrap-5-logo-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/tailwind-css-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/figma.svg" alt="" width="7%" class="icons">
+					<img src="tools/canva-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/lighroom.svg" alt="" width="7%" class="icons">
+					<img src="tools/adobe-premiere-pro-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/filmora-logo-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/vscode.svg" alt="" width="7%" class="icons">
+					<img src="tools/chatgpt-icon.svg" alt="" width="7%" class="icons">
+					<img src="tools/ms.svg" alt="" width="7%" class="icons">
+					<img src="tools/vite.svg" alt="" width="7%" class="icons">
+				</div>
+			</div>
+		</section>
+		<section id="skills" class="skills container">
+			<h2>
+				<small>About Me</small>
+				What I Do
+			</h2>
+			<div class="holder-blue">
+				<div class="marquee">
+					<div class="marquee-content">
+						<div class="card">
+							<div class="card_head">
+								<img src="icons/html.svg" alt="HTML Icon" width="10%">
+								<h3 style="margin: 0;">Frontend Developer</h3>
+							</div>
+							<p>Frontend development involves creating the visual and interactive elements of websites
+								using HTML, CSS, and JavaScript. It ensures websites are responsive, accessible, and
+								engaging, providing a seamless user experience across various devices and screen sizes.
+							</p>
+						</div>
+						<div class="card">
+							<div class="card_head">
+								<img src="icons/user-interface-svgrepo-com.svg" alt="HTML Icon" width="10%">
+								<h3 style="margin: 0;">UIUX Designer</h3>
+							</div>
+							<p>UI/UX design focuses on making digital products visually appealing and user-friendly. UI
+								deals with the design's aesthetics, while UX ensures the product is easy to use and
+								meets user needs effectively, enhancing overall satisfaction.</p>
+						</div>
+						<div class="card">
+							<div class="card_head">
+								<img src="icons/design-svgrepo-com.svg" alt="HTML Icon" width="10%">
+								<h3 style="margin: 0;">Logo Designing</h3>
+							</div>
+							<p>Logo designers craft unique and memorable symbols that encapsulate a brand's identity.
+								Their work ensures the logo resonates with the target audience, effectively conveying
+								the brand's values, mission, and personality in a visually appealing manner.</p>
+						</div>
+						<div class="card">
+							<div class="card_head">
+								<img src="icons/editor-films-production-svgrepo-com.svg" alt="HTML Icon" width="10%">
+								<h3 style="margin: 0;">Photo/Video Editing</h3>
+							</div>
+							<p>Video and photo editing involves enhancing and manipulating visual content to improve its
+								quality, add creative effects, and construct compelling narratives. This process engages
+								the audience, making the content more appealing and impactful.</p>
+						</div>
+						<div class="card">
+							<div class="card_head">
+								<img src="icons/html.svg" alt="HTML Icon" width="10%">
+								<h3 style="margin: 0;">Frontend Developer</h3>
+							</div>
+							<p>Frontend development involves creating the visual and interactive elements of websites
+								using HTML, CSS, and JavaScript. It ensures websites are responsive, accessible, and
+								engaging, providing a seamless user experience across various devices and screen sizes.
+							</p>
+						</div>
+						<div class="card">
+							<div class="card_head">
+								<img src="icons/user-interface-svgrepo-com.svg" alt="HTML Icon" width="10%">
+								<h3 style="margin: 0;">UIUX Designer</h3>
+							</div>
+							<p>UI/UX design focuses on making digital products visually appealing and user-friendly. UI
+								deals with the design's aesthetics, while UX ensures the product is easy to use and
+								meets user needs effectively, enhancing overall satisfaction.</p>
+						</div>
+						<div class="card">
+							<div class="card_head">
+								<img src="icons/design-svgrepo-com.svg" alt="HTML Icon" width="10%">
+								<h3 style="margin: 0;">Logo Designing</h3>
+							</div>
+							<p>Logo designers craft unique and memorable symbols that encapsulate a brand's identity.
+								Their work ensures the logo resonates with the target audience, effectively conveying
+								the brand's values, mission, and personality in a visually appealing manner.</p>
+						</div>
+						<div class="card">
+							<div class="card_head">
+								<img src="icons/editor-films-production-svgrepo-com.svg" alt="HTML Icon" width="10%">
+								<h3 style="margin: 0;">Photo/Video Editing</h3>
+							</div>
+							<p>Video and photo editing involves enhancing and manipulating visual content to improve its
+								quality, add creative effects, and construct compelling narratives. This process engages
+								the audience, making the content more appealing and impactful.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="education container">
+			<h2>
+				<small>About me</small>
+				Education
+			</h2>
+			<div class="holder-gray">
+				<div class="card">
+					<div class="card_head">
+						<h3 style="margin: 0;">Graduation</h3>
+						<h4>BTech. (2021-2025)</h4>
+					</div>
+					<p>I am pursuing a BTech in Computer Science and Engineering with a specialization in Artificial
+						Intelligence, focusing on advanced technologies and algorithms to develop intelligent systems
+						and innovative solutions.</p>
+				</div>
+				<div class="card">
+					<div class="card_head">
+						<h3 style="margin: 0;">InterSchool</h3>
+						<h4>BTech. (2019-2020)</h4>
+					</div>
+					<p>I completed my 12th grade with a focus on Physics, Chemistry, and Mathematics (PCM), laying a
+						strong foundation for my BTech in Computer Science and Engineering.</p>
+				</div>
+				<div class="card">
+					<div class="card_head">
+						<h3 style="margin: 0;">HighSchool</h3>
+						<h4>BTech. (2017-2018)</h4>
+					</div>
+					<p>
+						I completed my 10th grade with a focus on Science, English, Mathematics, Social Science, and IT,
+						providing a comprehensive educational foundation for my further studies.</p>
+				</div>
+			</div>
+
+
+		</section>
+		<section id="projects" class="bento container">
+			<h2>
+				<small>
+					Previous
+				</small>
+				Completed Projects
+			</h2>
+
+			<div class="slider">
+				<svg id="left" xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+					<path
+						d="M512 256A256 256 0 1 0 0 256a256 256 0 1 0 512 0zM215 127c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-71 71L392 232c13.3 0 24 10.7 24 24s-10.7 24-24 24l-214.1 0 71 71c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0L103 273c-9.4-9.4-9.4-24.6 0-33.9L215 127z" />
+				</svg>
+				<div class="grid-container">
+					<div class="bento-grid grid1" id="project">
+						<div class="bento-item">
+							<a href="#">
+								<video src="videos/WOOBLE - Made with Clipchamp.mp4" autoplay muted loop></video>
+							</a>
+							<div class="bento-item-text">
+								<h4 style="font-variant: small-caps;">Wooble:Spotify Clone</h4>
+								<p>
+									The music player project aims to create a user-friendly platform for seamless music
+									enjoyment with personalized features and intuitive functionality. Users can play,
+									pause,
+									add
+									songs from playlists, and adjust the volume.</p>
+								<div class="flex">
+									<a href="https://github.com/Divyanshuk09/Spotify-Clone" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2"
+											data-name="Layer 2" xmlns="http://www.w3.org/2000/svg">
+											<path class="cls-1"
+												d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+										</svg>
+										Source
+									</a>
+
+								</div>
+							</div>
+
+						</div>
+						<div class="bento-item">
+							<a href="#">
+								<video src="videos/PASSOP - Made with Clipchamp.mp4" autoplay muted loop></video>
+							</a>
+							<div class="bento-item-text">
+								<h4 style="font-variant: small-caps;">Pass OP:Password manager</h4>
+								<p>Pass-Op is a secure password manager built with React. It offers features like
+									password
+									save
+									,edit, delete and a
+									responsive design. Users can easily save in local storage</p>
+								<div class="flex">
+									<a href="https://github.com/Divyanshuk09/PassOP" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2"
+											data-name="Layer 2" xmlns="http://www.w3.org/2000/svg">
+											<path class="cls-1"
+												d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+										</svg>
+										Source
+									</a>
+									<a href="https://pass-op-xi.vercel.app/" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<rect width="14" height="14" fill="#00000000" />
+											<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+											<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+												stroke-linejoin="round" />
+											<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+												stroke-linejoin="round" />
+											<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+											<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+											<g filter="url(#filter0_d_15_556)">
+												<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+											</g>
+										</svg>
+										Website
+									</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="bento-item">
+							<a href="#">
+								<video src="videos/quizapp - Made with Clipchamp.mp4" autoplay muted loop></video>
+							</a>
+							<div class="bento-item-text">
+								<h4 style="font-variant: small-caps;">Quiz App</h4>
+								<p>The app features an engaging quiz with multiple-choice questions from a JSON file.
+									Users
+									can
+									select answers, view their score, and track progress with a dynamic progress bar. It
+									also
+									includes a high score table, storing and displaying best scores using local storage.
+								</p>
+								<div class="flex">
+									<a href="https://github.com/Divyanshuk09/Quiz-App" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2"
+											data-name="Layer 2" xmlns="http://www.w3.org/2000/svg">
+											<path class="cls-1"
+												d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+										</svg>
+										Source
+									</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="bento-item">
+							<a href="#">
+								<video src="videos/Loginform.mp4" autoplay muted loop></video>
+							</a>
+							<div class="bento-item-text">
+								<h4 style="font-variant: small-caps;">Animated:Login/Signup</h4>
+								<p>The animated login/signup form offers a visually engaging and user-friendly
+									experience.
+									With
+									seamless transitions and smooth animations, it simplifies the authentication
+									process,
+									making
+									registration and login both enjoyable and efficient.</p>
+								<div class="flex">
+									<a href="https://github.com/Divyanshuk09/Login-Form" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2"
+											data-name="Layer 2" xmlns="http://www.w3.org/2000/svg">
+											<path class="cls-1"
+												d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+										</svg>
+										Source
+									</a>
+									<a href="https://divyanshuk09.github.io/Login-Form/" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<rect width="14" height="14" fill="#00000000" />
+											<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+											<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+												stroke-linejoin="round" />
+											<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+												stroke-linejoin="round" />
+											<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+											<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+											<g filter="url(#filter0_d_15_556)">
+												<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+											</g>
+										</svg>
+										Website
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<div class="bento-grid grid2" style="display: none;" id="project">
+						<div class="bento-item">
+							<a href="#">
+								<video src="videos/NetflixClone.mp4" autoplay muted loop></video>
+							</a>
+							<div class="bento-item-text">
+								<h4 style="font-variant: small-caps;">Netflix homeplage Clone</h4>
+								<p>The animated Netflix homepage offers a visually engaging and user-friendly
+									experience.
+									With
+									smooth transitions and dynamic animations, it simplifies navigation and enhances
+									user
+									interaction, making content discovery both enjoyable and efficient.</p>
+								<div class="flex">
+									<a href="https://github.com/Divyanshuk09/NetflixCloneHomepage" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2"
+											data-name="Layer 2" xmlns="http://www.w3.org/2000/svg">
+											<path class="cls-1"
+												d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+										</svg>
+										Source
+									</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="bento-item">
+							<a href="#">
+								<video src="videos/StudySync.mp4" autoplay muted loop></video>
+							</a>
+							<div class="bento-item-text">
+								<h4 style="font-variant: small-caps;">StudySync:Blog website</h4>
+								<p>The StudySync homepage clone offers a visually appealing and user-friendly interface.
+									With
+									smooth animations and intuitive navigation, it enhances the user experience, making
+									access
+									to educational content engaging and efficient.</p>
+								<div class="flex">
+									<a href="https://github.com/Divyanshuk09/Study-Sync" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2"
+											data-name="Layer 2" xmlns="http://www.w3.org/2000/svg">
+											<path class="cls-1"
+												d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+										</svg>
+										Source
+									</a>
+									<a href="https://divyanshuk09.github.io/Study-Sync/" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<rect width="14" height="14" fill="#00000000" />
+											<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+											<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+												stroke-linejoin="round" />
+											<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+												stroke-linejoin="round" />
+											<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+											<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+											<g filter="url(#filter0_d_15_556)">
+												<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+											</g>
+										</svg>
+										Website
+									</a>
+								</div>
+							</div>
+
+						</div>
+						<div class="bento-item">
+							<a href="#">
+								<video src="videos/Twitter.mp4" autoplay muted loop></video>
+							</a>
+							<div class="bento-item-text">
+								<h4 style="font-variant: small-caps;">Twitter:Homepage clone</h4>
+								<p>To clone Twitter’s homepage: create HTML for structure (header, sidebar, feed), style
+									with CSS for design, add JavaScript for interactivity, and test across devices.
+									Optionally, include backend for dynamic features.</p>
+								<div class="flex">
+									<a href="https://github.com/Divyanshuk09/Twitter-clone" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2"
+											data-name="Layer 2" xmlns="http://www.w3.org/2000/svg">
+											<path class="cls-1"
+												d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+										</svg>
+										Source
+									</a>
+									<a href="https://divyanshuk09.github.io/Twitter-clone/" class="button2">
+										<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+											xmlns="http://www.w3.org/2000/svg">
+											<rect width="14" height="14" fill="#00000000" />
+											<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+											<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+												stroke-linejoin="round" />
+											<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+												stroke-linejoin="round" />
+											<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+											<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+											<g filter="url(#filter0_d_15_556)">
+												<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+											</g>
+										</svg>
+										Website
+									</a>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<svg id="right" xmlns="http://www.w3.org/2000/svg"
+					viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+					<path
+						d="M0 256a256 256 0 1 0 512 0A256 256 0 1 0 0 256zM297 385c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l71-71L120 280c-13.3 0-24-10.7-24-24s10.7-24 24-24l214.1 0-71-71c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0L409 239c9.4 9.4 9.4 24.6 0 33.9L297 385z" />
+				</svg>
+			</div>
+
+			<div class="project-flex">
+				<div class="item" id="page1">
+					<a href="#">
+						<video src="videos/WOOBLE - Made with Clipchamp.mp4" autoplay muted loop></video>
+					</a>
+					<div class="bento-item-text">
+						<h4 style="font-variant: small-caps;">Wooble:Spotify Clone</h4>
+						<p>
+							The music player project aims to create a user-friendly platform for seamless music
+							enjoyment with personalized features and intuitive functionality. Users can play,
+							pause,
+							add
+							songs from playlists, and adjust the volume.</p>
+						<div class="flex">
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2"
+									xmlns="http://www.w3.org/2000/svg">
+									<path class="cls-1"
+										d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+								</svg>
+								Website
+							</a>
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect width="14" height="14" fill="#00000000" />
+									<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+									<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+									<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									<g filter="url(#filter0_d_15_556)">
+										<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									</g>
+								</svg>
+								Source
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="item" id="page2" style="display: none;">
+					<a href="#">
+						<video src="videos/PASSOP - Made with Clipchamp.mp4" autoplay muted loop></video>
+					</a>
+					<div class="bento-item-text">
+						<h4 style="font-variant: small-caps;">Pass OP:Password manager</h4>
+						<p>Pass-Op is a secure password manager built with React. It offers features like
+							password
+							save
+							,edit, delete and a
+							responsive design. Users can easily save in local storage</p>
+						<div class="flex">
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2"
+									xmlns="http://www.w3.org/2000/svg">
+									<path class="cls-1"
+										d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+								</svg>
+								Website
+							</a>
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect width="14" height="14" fill="#00000000" />
+									<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+									<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+									<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									<g filter="url(#filter0_d_15_556)">
+										<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									</g>
+								</svg>
+								Source
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="item" id="page3" style="display: none;">
+					<a href="#">
+						<video src="videos/quizapp - Made with Clipchamp.mp4" autoplay muted loop></video>
+					</a>
+					<div class="bento-item-text">
+						<h4 style="font-variant: small-caps;">Quiz App</h4>
+						<p>The app features an engaging quiz with multiple-choice questions from a JSON file.
+							Users
+							can
+							select answers, view their score, and track progress with a dynamic progress bar. It
+							also
+							includes a high score table, storing and displaying best scores using local storage.
+						</p>
+						<div class="flex">
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2"
+									xmlns="http://www.w3.org/2000/svg">
+									<path class="cls-1"
+										d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+								</svg>
+								Website
+							</a>
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect width="14" height="14" fill="#00000000" />
+									<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+									<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+									<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									<g filter="url(#filter0_d_15_556)">
+										<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									</g>
+								</svg>
+								Source
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="item" id="page4" style="display: none;">
+					<a href="#">
+						<video src="videos/Loginform.mp4" autoplay muted loop></video>
+					</a>
+					<div class="bento-item-text">
+						<h4 style="font-variant: small-caps;">Animated:Login/Signup</h4>
+						<p>The animated login/signup form offers a visually engaging and user-friendly
+							experience.
+							With
+							seamless transitions and smooth animations, it simplifies the authentication
+							process,
+							making
+							registration and login both enjoyable and efficient.</p>
+						<div class="flex">
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2"
+									xmlns="http://www.w3.org/2000/svg">
+									<path class="cls-1"
+										d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+								</svg>
+								Website
+							</a>
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect width="14" height="14" fill="#00000000" />
+									<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+									<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+									<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									<g filter="url(#filter0_d_15_556)">
+										<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									</g>
+								</svg>
+								Source
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="item" id="page5" style="display: none;">
+					<a href="#">
+						<video src="videos/NetflixClone.mp4" autoplay muted loop></video>
+					</a>
+					<div class="bento-item-text">
+						<h4 style="font-variant: small-caps;">Netflix homeplage Clone</h4>
+						<p>The animated Netflix homepage offers a visually engaging and user-friendly
+							experience.
+							With
+							smooth transitions and dynamic animations, it simplifies navigation and enhances
+							user
+							interaction, making content discovery both enjoyable and efficient.</p>
+						<div class="flex">
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2"
+									xmlns="http://www.w3.org/2000/svg">
+									<path class="cls-1"
+										d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+								</svg>
+								Website
+							</a>
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect width="14" height="14" fill="#00000000" />
+									<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+									<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+									<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									<g filter="url(#filter0_d_15_556)">
+										<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									</g>
+								</svg>
+								Source
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="item" id="page6" style="display: none;">
+					<a href="#">
+						<video src="videos/StudySync.mp4" autoplay muted loop></video>
+					</a>
+					<div class="bento-item-text">
+						<h4 style="font-variant: small-caps;">StudySync:Blog website</h4>
+						<p>The StudySync homepage clone offers a visually appealing and user-friendly interface.
+							With
+							smooth animations and intuitive navigation, it enhances the user experience, making
+							access
+							to educational content engaging and efficient.</p>
+						<div class="flex">
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2"
+									xmlns="http://www.w3.org/2000/svg">
+									<path class="cls-1"
+										d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+								</svg>
+								Website
+							</a>
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect width="14" height="14" fill="#00000000" />
+									<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+									<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+									<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									<g filter="url(#filter0_d_15_556)">
+										<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									</g>
+								</svg>
+								Source
+							</a>
+						</div>
+					</div>
+
+				</div>
+				<div class="item" id="page7" style="display: none;">
+					<a href="#">
+						<video src="videos/Twitter.mp4" autoplay muted loop></video>
+					</a>
+					<div class="bento-item-text">
+						<h4 style="font-variant: small-caps;">Twitter:Homepage clone</h4>
+						<p>To clone Twitter’s homepage: create HTML for structure (header, sidebar, feed), style
+							with CSS for design, add JavaScript for interactivity, and test across devices.
+							Optionally, include backend for dynamic features.</p>
+						<div class="flex">
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 48 48" id="Layer_2" data-name="Layer 2"
+									xmlns="http://www.w3.org/2000/svg">
+									<path class="cls-1"
+										d="M24,2.5a21.5,21.5,0,0,0-6.8,41.9c1.08.2,1.47-.46,1.47-1s0-1.86,0-3.65c-6,1.3-7.24-2.88-7.24-2.88A5.7,5.7,0,0,0,9,33.68c-1.95-1.33.15-1.31.15-1.31a4.52,4.52,0,0,1,3.29,2.22c1.92,3.29,5,2.34,6.26,1.79a4.61,4.61,0,0,1,1.37-2.88c-4.78-.54-9.8-2.38-9.8-10.62a8.29,8.29,0,0,1,2.22-5.77,7.68,7.68,0,0,1,.21-5.69s1.8-.58,5.91,2.2a20.46,20.46,0,0,1,10.76,0c4.11-2.78,5.91-2.2,5.91-2.2a7.74,7.74,0,0,1,.21,5.69,8.28,8.28,0,0,1,2.21,5.77c0,8.26-5,10.07-9.81,10.61a5.12,5.12,0,0,1,1.46,4c0,2.87,0,5.19,0,5.9s.39,1.24,1.48,1A21.5,21.5,0,0,0,24,2.5" />
+								</svg>
+								Website
+							</a>
+							<a href="#" class="button2">
+								<svg width="800px" height="800px" viewBox="0 0 24 24" fill="none"
+									xmlns="http://www.w3.org/2000/svg">
+									<rect width="14" height="14" fill="#00000000" />
+									<circle cx="12" cy="12" r="9" stroke="#000000" stroke-linejoin="round" />
+									<path d="M12 3C12 3 8.5 6 8.5 12C8.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M12 3C12 3 15.5 6 15.5 12C15.5 18 12 21 12 21" stroke="#000000"
+										stroke-linejoin="round" />
+									<path d="M3 12H21" stroke="#000000" stroke-linejoin="round" />
+									<path d="M19.5 7.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									<g filter="url(#filter0_d_15_556)">
+										<path d="M19.5 16.5H4.5" stroke="#000000" stroke-linejoin="round" />
+									</g>
+								</svg>
+								Source
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<div class="pagination">
+				<button id="prev">Previous</button>
+				<button id="next">Next</button>
+			</div>
+
+		</section>
+		<section id="contact" class="Contact container">
+			<h2>
+				<small>
+					Wanna Connect?
+				</small>
+				Contact Me
+			</h2>
+			<div class="page">
+				<div class="design">
+					<h5>Want to</h5>
+					<h5 style="margin-left: 3rem;">start</h5>
+					<h5 style="margin-left: -3rem;">a new</h5>
+					<h5 style="margin-left: 4rem;">project?</h5>
+					<h6>Or just say hello.</h6>
+				</div>
+				<div class="form">
+					<div class="container">
+						<div class="social-media">
+							<h7>Socials:</h7>
+							<a href="https://www.linkedin.com/in/divyanshu-kushwah/"><img src="icons/Linkedin.svg"
+									alt="linkedin" width="40px"> LinkedIn</a>
+							<a href="https://github.com/Divyanshuk09"><img src="icons/Github.svg" alt="github"
+									width="40px"> GitHub</a>
+							<a href="https://www.instagram.com/divyanshu_k09/?hl=en"><img src="icons/Instagram.svg"
+									alt="Instagram" width="40px"> Instagram</a>
+						</div>
+						<div class="newsletter-section">
+							<p class="email">divyanshukushwah2003@gmail.com</p>
+							<a href="mailto:divyanshukushwah2003@gmail.com" class="animated-button"> <span
+									class="arrow">→</span></a>
+						</div>
+					</div>
+				</div>
+		</section>
+
+	</main>
+</body>
+
+</html>

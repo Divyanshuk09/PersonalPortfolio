@@ -146,7 +146,7 @@ header {
 					padding: 5px;
 					border-radius: 50px;
 					cursor: pointer;
-
+					background-color: grey;
 					&:hover {
 						background-color: var(--base-100);
 					}
@@ -284,6 +284,7 @@ h1 {
 
 	@media (max-width:1024px) {
 		flex-direction: column;
+		margin-top: 25%;
 	}
 
 	.hero-blue {
@@ -358,6 +359,9 @@ h1 {
 		}
 		@media (max-width:700px) {
 			width: 150vw;
+			height: 80px;
+			padding-top: 10px;
+			padding-bottom: 10px;
 			overflow-x: hidden;
 		}
 
@@ -371,6 +375,9 @@ h1 {
 
 			.icons {
 				width: 6rem;
+				@media (max-width:700px) {
+					width: 4rem;
+				}
 			}
 		}
 	}
@@ -653,13 +660,12 @@ h3 {
 		display: none;
 
 		@media (max-width:700px) {
-			height: 50vh;
+			height: 70vh;
 			margin-top: 50px;
 			gap: 10px;
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			margin-bottom: 20px;
 			gap: 10px;
 			color: var(--text-color);
 			background-color: var(--background-color);
@@ -717,7 +723,7 @@ h3 {
 						height: 1rem;
 						border-radius: 20px;
 						padding-left: 0px;
-						background-color: var(--background-color);
+						background-color: gray;
 	
 					}
 	
@@ -732,6 +738,7 @@ h3 {
 
 		}
 	.pagination {
+		margin-top: 20px;
 		display: none;
 		text-align: center;
 		

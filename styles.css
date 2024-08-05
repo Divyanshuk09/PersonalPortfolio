@@ -738,7 +738,11 @@ h3 {
 
 		}
 	.pagination {
+<<<<<<< HEAD
 		margin-top: 20px;
+=======
+		margin-top:30px;
+>>>>>>> 0040e8e27accf57186add7a7390b4c00070d0df4
 		display: none;
 		text-align: center;
 		

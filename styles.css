@@ -284,6 +284,7 @@ h1 {
 
 	@media (max-width:1024px) {
 		flex-direction: column;
+		margin-top: 25%;
 	}
 
 	.hero-blue {

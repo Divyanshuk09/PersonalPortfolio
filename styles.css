@@ -653,7 +653,7 @@ h3 {
 		display: none;
 
 		@media (max-width:700px) {
-			height: 50vh;
+			height: 70vh;
 			margin-top: 50px;
 			gap: 10px;
 			display: flex;
